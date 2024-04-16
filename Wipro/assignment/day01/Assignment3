@@ -1,0 +1,38 @@
+PSEDOCODE FOR FIBONACCI OF A NUMBER
+
+START
+Set n as integer
+Display "enter a positive number: "
+get input and store it in n
+check if n is positive or negative or 1
+--if n<0 then display "number must be non negative"
+--else if n==0 then return 0
+--else if n==1 then return 1
+--else create t1 =1 and create t2 =1
+---while(n>1)
+---int p = t2
+---t2 += t1
+---t1 = p
+---n-=1
+--return t2;
+END
+
+
+PSEUDOCODE FOR FACTORIAL OF A NUMBER
+
+START
+Set n as integer
+Display "enter a positive number: "
+get input and store it in n
+check if n is positive or negative or 1
+--if n<0 then display "number must be non negative"
+--else if n==1 or n==0 return 1
+--else create t = n
+---while(n>1)
+---t*=t-1
+---n-=1
+--return t
+END
+
+
+Modularity helps in reusablity by breaking a large function into small function and then we can use that small function whenever we need it saves time and effort to rewrite code and imagine needing factorial function use more than 1 time, how effortless and simple it will by calling a function instead of rewriting whole logic function. Organization helps modify, maintain and understand the code easily. if we have to change some logic in multiple time as small it will be one time change to modify the code and it will be easy to find that all changes are done.

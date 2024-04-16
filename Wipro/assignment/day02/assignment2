@@ -1,0 +1,24 @@
+PSEUDOCODE FOR RECURSIVE FUNCTION OF FIBONACCI NUMBER
+
+START
+
+fib(n) function
+
+if(n==0)
+return 0
+
+if(n==1)
+return 1
+
+else return fib(n-1) + fib(n-2)
+
+END
+
+Time complexity of recursive is O(2^n)
+Time complexity of iterative is O(n);
+
+Space complexity of recursive is O(n)
+Space complexity of iterative is O(1);
+
+as we can see for time complexity, it will be greater for recusive for large values and
+space complexity is also high in recusive function for fibonacci numbers because of stacking up the functions while in itertive function it only use 3 integers.

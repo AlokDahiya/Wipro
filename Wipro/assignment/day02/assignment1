@@ -1,0 +1,21 @@
+Pseudocode for Bubble Sort
+
+START 
+
+ask for array and save
+create function
+set i=1;
+set j=0;
+
+//n is size of array
+
+use while loop(i<n){ 
+	if(a[j]>a[j+1];
+	swap;
+	j++;
+	if(j<(n-i)){
+		go to line 9
+	}
+	i++;
+	
+END

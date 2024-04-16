@@ -1,0 +1,14 @@
+Pseudocode for return cube if number is odd or square if number is even
+
+start
+declare n as integer 
+display "enter a number: "
+get input stored as n
+check if n is even
+--if mod 2 of n == 0 then it is even
+if even then return square 
+--return n*n
+if n is not even then it is odd
+then return cube of n
+--else return n*n*n
+end
